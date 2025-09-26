@@ -26,6 +26,16 @@ Youtarr is a self-hosted YouTube downloader that automatically downloads videos 
 - **🔐 Secure Access**: Local authentication system with admin controls
 - **☁️ Platform Flexible**: Configurable storage paths for Kubernetes/Elfhosted deployments
 
+### Series Configuration Features ⭐ (DommDynamite Fork)
+- **📺 TV Show Organization**: Organize YouTube channels into TV series with Season/Episode structure
+- **🎯 Smart Filtering**: Create profiles with regex, contains, or duration filters to automatically categorize videos
+- **📝 Custom Naming Templates**: Use variables like `{series}`, `{season}`, `{episode}`, `{title}` to create consistent episode names
+- **🗂️ Season Management**: Support for Season 0 (specials) and custom season numbering
+- **📋 NFO File Generation**: Create Jellyfin/Kodi/Emby compatible metadata files for TV series
+- **🧹 Title Cleaning**: Automatically remove channel name prefixes and apply regex patterns for clean episode titles
+- **📁 Folder Browser**: Visual directory selector for custom series destinations
+- **🧪 Profile Testing**: Preview how existing videos would be renamed with your profile settings
+
 ### Optional Plex Integration
 - **🔄 Auto Library Refresh**: Automatically update Plex after downloads
 - **📁 Plex-Ready Format**: Videos organized and named for perfect Plex compatibility
@@ -43,7 +53,7 @@ Youtarr is a self-hosted YouTube downloader that automatically downloads videos 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/dialmaster/Youtarr.git
+   git clone https://github.com/DommDynamite/Youtarr.git
    cd Youtarr
    ```
 
